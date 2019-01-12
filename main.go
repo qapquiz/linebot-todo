@@ -19,7 +19,7 @@ func determineListenPort() (string, error) {
 }
 
 func handlerWebhook(w http.ResponseWriter, r *http.Request) {
-
+	fmt.Fprintf(w, "Hello, World~")
 }
 
 func main() {
